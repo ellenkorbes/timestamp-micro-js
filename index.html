@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Timestamp Microservice</title>
+    <style></style>
+</head>
+
+<body>
+
+    <h1><a id="Timestamp_Microservice_0"></a>Timestamp Microservice</h1>
+    <p>For <a href="http://freecodecamp.com">freeCodeCamp</a> - <a href="https://www.freecodecamp.org/challenges/timestamp-microservice">Back end &gt; API Projects &gt; Timestamp Microservice</a></p>
+    <h2><a id="User_Stories_4"></a>User Stories</h2>
+    <ol>
+        <li>
+            <p>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp
+                or a natural language date (example: January 1, 2016).</p>
+        </li>
+        <li>
+            <p>If it does, it returns both the Unix timestamp and the natural language form of that date.</p>
+        </li>
+        <li>
+            <p>If it does not contain a date or Unix timestamp, it returns null for those properties.</p>
+        </li>
+    </ol>
+    <h2><a id="Usage_12"></a>Usage</h2>
+    <pre><code>http://timestamp-micro-js.glitch.me/January 1, 2016
+</code></pre>
+    <pre><code>http://timestamp-micro-js.glitch.me/1451606400
+</code></pre>
+    <h2><a id="Output_22"></a>Output</h2>
+    <pre><code>{
+    &quot;unix&quot;: 1451606400,
+    &quot;natural&quot;: &quot;January 1, 2016&quot;
+}
+</code></pre>
+    <pre><code>{
+    &quot;unix&quot;: null,
+    &quot;natural&quot;: null
+}
+</code></pre>
+
+</body>
+
+</html>
